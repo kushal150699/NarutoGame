@@ -52,7 +52,7 @@ main{
 
 @media (min-width:600px){
     .character-card{
-        height: 40rem;
+        height: 35rem;
         width: 36vw;
         background: transparent;
         box-shadow: none;
