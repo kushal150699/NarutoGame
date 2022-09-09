@@ -30,7 +30,7 @@ function attack() {
                     wizard = getNewHero()
                     render()
                     isWaiting = false
-                },1000)
+                },500)
             }
             else{
                endGame()
@@ -43,7 +43,7 @@ function attack() {
                     monster = getNewMonster()
                     render()
                     isWaiting = false
-                },1000)
+                },500)
             }
             else{
                 endGame()
@@ -66,7 +66,7 @@ function endGame() {
                     <h3>${endMessage}</h3>
                 </div>
                 `
-        }, 1000)
+        }, 500)
 }
 
 function render() {
